@@ -346,6 +346,54 @@ public class Exercises {
         */
         
         
+        // Exercise     : Interest Calculator
+        /*
+        System.out.println("Enter annual interest (without percent)");
+        Scanner sc = new Scanner(System.in);
+        double interest = sc.nextDouble();
+        
+        System.out.println("Enter principal: ");
+        double principal = sc.nextDouble();   
+        
+        System.out.println("Enter number of years invested (integer): ");
+        int yearsInvested = sc.nextInt();   
+        
+        double current = principal;
+        
+        // Loop through and calculate
+        for(int i = 1; i <= yearsInvested; i++){
+            
+            // Print year number
+            System.out.println("Year " + i);
+            
+            // Principal at beginning of year
+            System.out.println("Principal: " + current);
+            
+            // Interest earned for the year
+            double newB = current * (1 + ((interest / 4) / 100) );
+            newB = newB * (1 + ((interest / 4) / 100) );
+            newB = newB * (1 + ((interest / 4) / 100) );
+            newB = newB * (1 + ((interest / 4) / 100) );
+            System.out.println("Interest earned for year: " + (newB - current));
+            
+            
+            //Pirncipal at end of the yar
+            System.out.println("Principal at end of yearL " + newB);
+            
+            // Update current
+            current = newB;
+            
+            
+        }
+        */
+        
+        
+        
+        
+        
+        // Exercise Lucky Sevens
+        
+        
         
         
         
